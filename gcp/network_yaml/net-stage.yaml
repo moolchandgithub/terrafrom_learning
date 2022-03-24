@@ -1,0 +1,8 @@
+net-prod:
+  network:
+    name: staging
+  subnet:
+    - name: staging-web
+      cidr: "192.171.0.0/24"
+    - name: staging-db
+      cidr: "192.171.1.0/24"
