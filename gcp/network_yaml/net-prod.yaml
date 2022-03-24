@@ -1,8 +1,0 @@
-net-prod:
-  network:
-    name: prod
-  subnet:
-    - name: prod-web
-      cidr: "192.172.0.0/24"
-    - name: prod-db
-      cidr: "192.172.1.0/24"
