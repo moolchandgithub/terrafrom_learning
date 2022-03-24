@@ -13,5 +13,5 @@ provider "google" {
 }
 
 module "my_vpc_ansible" {
-  source          = "./modules/gcp_network"
+  source = "./modules/gcp_network"
 }
