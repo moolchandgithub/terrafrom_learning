@@ -1,4 +1,4 @@
-net-prod:
+net-stage:
   network:
     name: staging
   subnet:

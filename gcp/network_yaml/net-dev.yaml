@@ -1,4 +1,4 @@
-net-prod:
+net-dev:
   network:
     name: dev
   subnet:
