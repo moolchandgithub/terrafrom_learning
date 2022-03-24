@@ -1,0 +1,8 @@
+net-prod:
+  network:
+    name: dev
+  subnet:
+    - name: dev-web
+      cidr: "192.170.0.0/24"
+    - name: dev-db
+      cidr: "192.170.1.0/24"
