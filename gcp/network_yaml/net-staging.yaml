@@ -1,0 +1,8 @@
+net-staging:
+  network:
+    name: staging
+  subnet:
+    - name: stg-web
+      cidr: "192.168.0.0/24"
+    - name: stg-db
+      cidr: "192.168.1.0/24"
