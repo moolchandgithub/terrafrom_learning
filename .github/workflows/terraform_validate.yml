@@ -19,7 +19,7 @@ jobs:
     steps:
     # Checkout the repository to the GitHub Actions runner
     - name: Checkout
-      uses: actions/checkout@master
+      uses: actions/checkout@v1
       with:
         ref: ${{ github.ref }}
 
